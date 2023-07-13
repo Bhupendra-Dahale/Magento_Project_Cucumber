@@ -3,6 +3,12 @@ package StepDefinitions;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
+
+import java.io.IOException;
+//import java.io.File;
+//import java.io.FileInputStream;
+//import java.util.Properties;
+
 import java.util.ResourceBundle;
 
 import org.apache.logging.log4j.LogManager;
@@ -37,9 +43,19 @@ public class StepDef {
 	List<HashMap<String, String>> datamap;
 	
 	@Before
-	public void setup() {
+	public void setup() throws IOException {
+		
+		/* Approach-1 with Resource Bundle to read Config.properties file */
 		rb=ResourceBundle.getBundle("Config");
 		br=rb.getString("browser");
+		
+		/* Approach-2 with FileInputStream to read Config.properties file */
+//		File location=new File(".\\src\\test\\resources\\Config.properties");
+//		FileInputStream file=new FileInputStream(location);
+//		Properties pr=new Properties();
+//		pr.load(file);
+//		br=pr.getProperty("browser");
+		
 		log=LogManager.getLogger(this.getClass());
 	}
 	
@@ -171,6 +187,7 @@ public class StepDef {
 					myacc.sign_out();
 					Assert.assertTrue(false);
 				}else {
+					log.info("Credential is invalid");
 					Assert.assertTrue(true);
 				}
 			}
