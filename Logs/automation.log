@@ -1,0 +1,97 @@
+14:10:42.712 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+14:10:44.437 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+14:10:46.110 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+14:10:46.380 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+14:10:48.518 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+14:10:48.519 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+14:15:18.572 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+14:15:20.199 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+14:15:21.866 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+14:15:22.133 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+14:15:23.810 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+14:15:23.812 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+14:24:36.492 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+14:24:40.406 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+14:24:42.273 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+14:24:43.945 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+14:24:44.195 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+14:24:45.830 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+14:24:45.831 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+14:52:39.883 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+14:52:45.848 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+14:52:48.163 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+14:52:50.158 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+14:52:50.659 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+14:52:52.410 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+14:52:52.412 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+14:55:15.156 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+14:55:21.248 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+14:55:23.709 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+14:55:25.790 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+14:55:26.324 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+14:55:28.140 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+14:55:28.141 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+14:55:28.331 [main] INFO  StepDefinitions.StepDef - Title is verfied
+14:55:30.225 [main] INFO  StepDefinitions.StepDef - Sign-out successfully
+15:08:08.054 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+15:08:14.503 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+15:08:16.770 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+15:08:18.700 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+15:08:19.177 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+15:08:21.123 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+15:08:21.125 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+17:52:48.179 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+17:52:56.248 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+17:52:58.396 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+17:52:59.872 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+17:53:00.290 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+17:53:02.416 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+17:53:02.418 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+17:53:02.591 [main] INFO  StepDefinitions.StepDef - Title is verfied
+17:53:13.892 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+17:53:18.175 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+17:53:20.117 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+17:53:22.130 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+17:53:22.564 [main] INFO  StepDefinitions.StepDef - Credentials provided successfully
+17:53:24.281 [main] INFO  StepDefinitions.StepDef - Successfully cliked on Sign-In
+17:53:24.283 [main] INFO  StepDefinitions.StepDef - Successfully SignIn to MyAccount page
+17:53:24.464 [main] INFO  StepDefinitions.StepDef - Title is verfied
+17:53:26.763 [main] INFO  StepDefinitions.StepDef - Sign-out successfully
+17:58:23.068 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+17:58:28.951 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+17:58:30.892 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+17:58:32.804 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+17:58:33.685 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+17:58:37.842 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+17:58:39.807 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+17:58:41.819 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+17:58:42.746 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+17:58:47.117 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+17:58:49.057 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+17:58:51.063 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:53:30.236 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+18:53:36.829 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+18:53:39.263 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+18:53:40.374 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:53:42.483 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+18:53:46.266 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+18:53:48.517 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+18:53:49.637 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:53:50.832 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+18:53:55.203 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+18:53:57.171 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+18:53:59.052 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:55:37.765 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+18:55:44.210 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+18:55:46.312 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+18:55:48.282 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:55:53.248 [main] INFO  StepDefinitions.StepDef - Title is matched successfully
+18:55:54.147 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+18:55:58.596 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+18:56:00.791 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+18:56:02.708 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:56:17.514 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+18:56:21.917 [main] INFO  StepDefinitions.StepDef - Browser selected successfully
+18:56:23.830 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
+18:56:25.657 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
+18:56:30.162 [main] INFO  StepDefinitions.StepDef - Title is matched successfully
