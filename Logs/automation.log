@@ -41,3 +41,11 @@
 12:42:00.009 [main] INFO  StepDefinitions.StepDef - URL is opened successfully
 12:42:01.315 [main] INFO  StepDefinitions.StepDef - Successfully clicked on SignIn button on Home Page
 12:42:06.308 [main] INFO  StepDefinitions.StepDef - Title is matched successfully
+13:31:22.064 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+13:34:48.603 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+13:37:31.647 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+13:41:00.540 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+13:41:05.718 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+13:41:12.257 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+13:49:25.716 [main] INFO  StepDefinitions.StepDef - Getting browser Information
+16:00:58.885 [main] INFO  StepDefinitions.StepDef - Getting browser Information

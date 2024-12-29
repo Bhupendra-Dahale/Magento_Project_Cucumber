@@ -3,7 +3,7 @@ package StepDefinitions;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
-
+import java.util.Map;
 import java.io.IOException;
 //import java.io.File;
 //import java.io.FileInputStream;
@@ -20,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -27,76 +28,20 @@ import io.cucumber.java.en.*;
 import org.junit.Assert;
 import pageObjects.HomePage;
 import pageObjects.MyAccountPage;
+import pageObjects.RegistrationPage;
 import pageObjects.SignInPage;
 import utilities.DataReader;
 
 public class StepDef {
 	WebDriver driver;
-	ResourceBundle rb;
-	String br;
 	Logger log;
 	
 	HomePage hp;
 	SignInPage signIn;
 	MyAccountPage myacc;
+	RegistrationPage regpage;
 	
 	List<HashMap<String, String>> datamap;
-	
-	@Before
-	public void setup() throws IOException {
-		
-		/* Approach-1 with Resource Bundle to read Config.properties file */
-		rb=ResourceBundle.getBundle("Config");
-		br=rb.getString("browser");
-		
-		/* Approach-2 with FileInputStream to read Config.properties file */
-//		File location=new File(".\\src\\test\\resources\\Config.properties");
-//		FileInputStream file=new FileInputStream(location);
-//		Properties pr=new Properties();
-//		pr.load(file);
-//		br=pr.getProperty("browser");
-		
-		log=LogManager.getLogger(this.getClass());
-	}
-	
-	@After
-	public void tearDown(Scenario scenario) {
-		
-		System.out.println("Status of the scenario is --->" + scenario.getStatus());
-		
-		if(scenario.isFailed()) {
-			byte[] screenshot=((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-			scenario.attach(screenshot, "Image/png", scenario.getName());
-		}
-		
-		driver.quit();
-	}
-	
-	@Given("User launch the browser")
-	public void user_launch_the_browser() {
-		log.info("Getting browser Information");
-		
-	    if(br.equals("chrome")) {
-	    	driver=new ChromeDriver();
-	    }
-	    else if(br.equals("edge")){
-	    	driver=new EdgeDriver();
-	    }
-	    else {
-	    	driver=new FirefoxDriver();
-	    }
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    
-	    log.info("Browser selected successfully");
-	}
-
-	@Given("Open the Url {string}")
-	public void open_the_url(String string) {
-		
-		driver.get(string);
-		
-		log.info("URL is opened successfully");
-	}
 
 	@When("User click on sign-in")
 	public void user_click_on_sign_in() {
@@ -159,6 +104,7 @@ public class StepDef {
 		datamap=DataReader.data(System.getProperty("user.dir")+"\\TestData\\UserData.xlsx", "User_Info");	//data is a static method hence we can directly use like this ClassName.MethodName();
 		
 		int index=Integer.parseInt(rows)-1;
+	
 		String email=datamap.get(index).get("User_ID");
 		String pwd=datamap.get(index).get("Password");
 		String status=datamap.get(index).get("Status");
@@ -196,4 +142,28 @@ public class StepDef {
 			Assert.assertTrue(false);
 		}
 	}
-}
+	
+	// *************  Create an Account  *************** //
+	
+	@When("User click on Create an Account")
+	public void User_click_on_Create_an_Account() {
+		
+		hp.createAnAccount();
+		
+		log.info("Successfuly clicked on create an account");
+	}
+	
+	@Then("Fill the following personal details")
+	public void Then_Fill_the_following_personal_details(DataTable datatable) {
+		
+		regpage =new RegistrationPage(driver);
+		Map<String, String> dataMap = datatable.asMap(String.class,String.class);
+		
+		regpage.setFirstName(dataMap.get("FirstName"));
+		regpage.setLastName(dataMap.get("LastName"));
+		regpage.setEmail(dataMap.get("Email"));
+		regpage.setPassword(dataMap.get("Password"));
+		regpage.createAccount();
+		}
+	
+	}

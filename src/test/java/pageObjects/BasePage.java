@@ -1,12 +1,13 @@
 package pageObjects;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
 
 public class BasePage {
 
-	 WebDriver driver;
+	 WebDriver driver = new ChromeDriver();
 	    
 	   public BasePage(WebDriver driver)
 	     {

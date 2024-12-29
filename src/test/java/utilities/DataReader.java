@@ -15,7 +15,9 @@ public class DataReader {
 	public static HashMap<String, String> storeValues = new HashMap();
 
 	public static List<HashMap<String, String>> data(String filepath, String sheetName) {
+		
 		List<HashMap<String, String>> mydata = new ArrayList<>();
+		
 		try {
 			FileInputStream fs = new FileInputStream(filepath);
 			XSSFWorkbook workbook = new XSSFWorkbook(fs);
@@ -32,6 +34,7 @@ public class DataReader {
 						{
 							case STRING:
 							currentHash.put(HeaderRow.getCell(j).getStringCellValue(), currentCell.getStringCellValue());
+							default:
 							break;
 						}
 					}
